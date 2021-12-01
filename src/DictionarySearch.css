@@ -1,0 +1,7 @@
+.dictionary-search input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 60%;
+}
