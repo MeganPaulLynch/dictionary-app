@@ -1,0 +1,17 @@
+.dictionary-phonetics a {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+  transition: all 500ms ease-in-out;
+}
+.dictionary-phonetics a:hover {
+  background-color: burlywood;
+}
+.dictionary-phonetics .phonetics-text {
+  padding-top: 16px;
+}

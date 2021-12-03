@@ -1,0 +1,11 @@
+.dictionary-synonyms {
+  list-style: none;
+  padding: 0 0;
+  margin-right: 0;
+}
+.dictionary-synonyms li {
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+}

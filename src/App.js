@@ -9,7 +9,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <DictionarySearch />
+          <DictionarySearch defaultSearchTerm="greeting" />
         </main>
         <footer className="text-center">Coded by Megan Paul Lynch</footer>
       </div>

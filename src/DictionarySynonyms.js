@@ -1,17 +1,14 @@
 import React from "react";
+import "./DictionarySynonyms.css";
 
 export default function DictionarySynonyms(props) {
   if (props.synonyms) {
     return (
-      <div className="Dictionary-Synonyms">
+      <ul className="dictionary-synonyms">
         {props.synonyms.map(function (synonyms, index) {
-          return (
-            <div key={index} className="d-flex">
-              {synonyms}
-            </div>
-          );
+          return <li key={index}>{synonyms}</li>;
         })}
-      </div>
+      </ul>
     );
   }
 }

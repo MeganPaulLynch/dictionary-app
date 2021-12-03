@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .App-header h1 {
   font-size: 36px;
@@ -12,4 +11,5 @@
 }
 .App footer {
   font-size: small;
+  padding: 20px;
 }
