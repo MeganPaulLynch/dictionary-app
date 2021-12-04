@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
 }
 .App-header h1 {
   font-size: 36px;
@@ -8,6 +9,7 @@
   font-weight: bold;
   line-height: 36px;
   opacity: 0.7;
+  text-align: center;
 }
 .App footer {
   font-size: small;
