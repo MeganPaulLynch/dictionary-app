@@ -11,7 +11,16 @@ function App() {
         <main>
           <DictionarySearch defaultSearchTerm="greeting" />
         </main>
-        <footer className="text-center">Coded by Megan Paul Lynch</footer>
+        <footer className="text-center">
+          Coded by Megan Paul Lynch. Open source code at{" "}
+          <a
+            href="https://github.com/MeganPaulLynch/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </footer>
       </div>
     </div>
   );
